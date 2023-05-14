@@ -1,72 +1,450 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- 
-      This is an HTML comment
-      You can write text in a comment and the content won't be visible in the page
-    -->
-
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
-
-    <!--
-      This is the page head - it contains info the browser uses
-      Like the title, which appears on the browser tab but not inside the page
-      Further down you'll see the content that displays in the page
-    -->
-    <title>Hello World!</title>
-
-    <!-- The website stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
-
-    <!-- The website JavaScript file -->
-    <script src="/script.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROJECT by Stéphanie Monteiro</title>
+    <link id="favicon" rel="icon" href="https://cdn.glitch.global/75ffb288-9d41-4924-bc6f-b702c013bbe7/Untitled%20design%20(2).png?v=1673043942057" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- nav -->
+    <div id="nav" class="nav">
+<div class="containernav">
+  <div class="columnnav1">
+          <a href="/"><img class="nav__logo" src="https://cdn.glitch.global/e09a74a3-f20e-4ac4-ae93-ad0b31b336a1/Aldershot.svg?v=1684068329504" alt="" /></a> 
+  </div>
+  <div class="columnnavhide">
+    <a href="/presentation" class="linknav">L'entreprise</a> 
+  </div>
+  
+  <div class="columnnavhide1">
+    <a href="/blog" class="linknav">Actualités</a> 
+  </div>
+  <div class="columnnav">
+     <label class="dropdown">
+
+  <div class="dd-button">
+    Nous contacter
+  </div>
+    
+  <input type="checkbox" class="dd-input" id="test">
+
+  <ul class="dd-menu">
+    <a href="tel:0621553937"><li>06 21 55 39 37</li></a>
+    <a href="mailto:contact@projectbysm.fr"><li>contact@projectbysm.fr</li></a>
+    <a href="https://www.instagram.com/project_btp/"><li>Nous suivre sur Instagram</li></a>
+    <li class="divider"></li>
+    <li>
+      <a href="/contact">Formulaire de contact</a>
+    </li>
+  </ul>
+  
+</label>
+  </div>
+</div>
+      
+    </div>
+
+    <!-- header -->
+
+    
+    
+
+    <script>
+      const nav = document.getElementById('nav');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY >= 100) {
+          nav.classList.add('nav__black');
+        } else {
+          nav.classList.remove('nav__black');
+        }
+      });
+    </script>
+    
+    
+  <body>
     <!--
-      The body includes the content you see in the page
-      Each element is defined using tags, like this <div></div>
-      The attributes like class="wrapper" let us style elements in the CSS
+      BODY SAOECOM ONEPAGE
     -->
+    <!-- Cookies managagement -->
+  <div class="alert" onclick="this.style.display='none';">
+Ce site utilise des cookies, dont certains sont nécessaires au bon fonctionnement du site et dont certains sont conçus pour améliorer votre expérience lors de votre visite : vous pouvez accepter tous les cookies en cliquant n'importe où sur cette barre
+ </div>
+    <!-- SAOECOM-->
     <div class="wrapper">
       <div class="content" role="main">
-        <h1 class="title">Hello World!</h1>
-        <img
-          src="https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2Fillustration.svg?v=1618177344016"
-          class="illustration"
-          alt="Editor illustration"
-          title="Click the image!"
-        />
-        <div class="instructions">
-          <h2>Using this project</h2>
-          <p>
-            This is the Glitch <strong>Hello Website</strong> project. You can
-            use it to build your own site. Check out the code in the editor and open
-            the <span class="fileopener" data-file="TODO.md" data-line="0"
-              >TODO</span> for next steps!
-          </p>
-          <!--  🚧 TODO: ADD BUTTON HERE -->
+        <!-- SAOECOM -->
+        <h1 class="title"> </h1>
 
-          <!-- Once you've added the button from TODO.md, click it in the page -->
-          <!-- Check out the function in script.js to see how it works -->
-        </div>
+        <!-- SAOECOM -->
+
       </div>
     </div>
-    <!-- The footer holds our remix button — you can keep or delete it ✂ -->
-    <footer class="footer">
-      <div class="links"></div>
-      <a
-        class="btn--remix"
-        target="_top"
-        href="https://glitch.com/edit/#!/remix/glitch-hello-website"
-      >
+
+
+    
+    
+<div class="container">
+ <purpleblocksRAY>
+            <img
+  src="https://cdn.glitch.global/75ffb288-9d41-4924-bc6f-b702c013bbe7/LOGO.png?v=1673038255828"
+  class="GIFSS" />
+    </purpleblocksRAY>
+</div>
+    
+
+    
+    
+    
+              <purpleblocks>
+
+      
+          <section class="columns">
+<div class="combat000P3 column">
+                      
+                                <p class="entranceZ13000P3">
+            Découvrez le profil et le parcours brillant de notre fondatrice Stéphanie Monteiro           
+          </p>
+                      
+                    <a
+        class="btnsub000P3-"
+        href="/fondatrice" 
+      >        En savoir plus
+      </a>            
+          <!-- SAOECOM -->
+        </div>
+            </div>
+	
+<div class="combat000P3 column">
+                      
+                                <p class="entranceZ13000P3">
+            Nos offres et solutions adaptées pour les missions avec les professionnels           
+          </p>
+                      
+                    <a
+        class="btnsub000P3-"
+        href="/offre-professionnels" 
+      >        Pour les professionnels
+      </a>            
+          <!-- SAOECOM -->
+        </div>
+  
+<div class="combat000P3 column">
+                      
+                                <p class="entranceZ13000P3">
+            Présentation de notre offre dédiée spécifiquement aux particuliers                 
+          </p>
+                      
+                    <a
+        class="btnsub000P3-"
+        href="/offre-particuliers" 
+      >        Pour les particuliers
+      </a>            
+          <!-- SAOECOM -->
+        </div>
+      
+    </section>	
+      
+            </purpleblocks>
+    
+    <br>
+    <p id="activites"> </p>
+    </div>
+    <purpleblocks2>
+    
+  <ul class="items">
+  <li class="item">
+    <a class="item-link" href="/chiffrage-tce">
+      <span class="item-text">Chiffrage tous corps d’état</span>
+      <svg class="item-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 8 4 L 16 12 L 8 20" stroke="#d9d4d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" />
+      </svg>
+    </a>
+  </li>
+  <li class="item">
+    <a class="item-link" href="/plan-2d">
+      <span class="item-text">Plan 2D</span>
+      <svg class="item-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 8 4 L 16 12 L 8 20" stroke="#d9d4d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" />
+      </svg>
+    </a>
+  </li>
+    <li class="item">
+    <a class="item-link" href="/modelisation-3d">
+      <span class="item-text">Modélisation 3D</span>
+      <svg class="item-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 8 4 L 16 12 L 8 20" stroke="#d9d4d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" />
+      </svg>
+    </a>
+  </li>
+    <li class="item">
+    <a class="item-link" href="/suivis-de-chantier">
+      <span class="item-text">Suivis de chantier</span>
+      <svg class="item-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 8 4 L 16 12 L 8 20" stroke="#d9d4d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" />
+      </svg>
+    </a>
+  </li>
+    <li class="item">
+    <a class="item-link" href="/dossiers-administratifs">
+      <span class="item-text">Dossiers administratifs</span>
+      <svg class="item-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 8 4 L 16 12 L 8 20" stroke="#d9d4d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" />
+      </svg>
+    </a>
+  </li>
+    <li class="item">
+    <a class="item-link" href="/amenagement-interieur">
+      <span class="item-text">Conseils en aménagement intérieur</span>
+      <svg class="item-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 8 4 L 16 12 L 8 20" stroke="#d9d4d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" />
+      </svg>
+    </a>
+  </li>
+        <li class="item">
+    <a class="item-link" href="/faisabilite-technique">
+      <span class="item-text">Conseils en faisabilité technique</span>
+      <svg class="item-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 8 4 L 16 12 L 8 20" stroke="#d9d4d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" />
+      </svg>
+    </a>
+  </li>
+      <li class="item">
+    <a class="item-link" href="/appels-offres">
+      <span class="item-text">Appels d’offres publics et privés</span>
+      <svg class="item-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 8 4 L 16 12 L 8 20" stroke="#d9d4d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" />
+      </svg>
+    </a>
+  </li>
+</ul>
+    
+    
+      </purpleblocks2>
+
+    
+        <p id="agences"> </p>
+
+    
+    
+
+
+  
+      
+    <purpleblocksS>
+          <purpleblocks>
+
+    </purpleblocks>
+       <div class="row">
+         
+      <div class="combat000P1 card">
+        
+  <div class="combat1">
         <img
-          src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
-          alt=""
-        />
-        Remix on Glitch
-      </a>
-    </footer>
+  src="https://cdn.glitch.global/75ffb288-9d41-4924-bc6f-b702c013bbe7/1.png?v=1673045932895"
+  class="GIF" />
+    
+  <p class="entranceZ1">
+    
+  Gérer soit-même ses dossiers administratifs BTP peut être chronophage, fastidieux et risqué, découvrez pourquoi vous devriez nous confier ces tâches et cette mission
+
+  </p>
+                       <a
+        class="btnsub000P3raycac"
+        href="/blog-0001" 
+      >        En savoir plus
+      </a>  
+  </div>
+  </div>
+    
+      <div class="combat000P1 card">
+  <div class="combat1">
+      <img
+  src="https://cdn.glitch.global/75ffb288-9d41-4924-bc6f-b702c013bbe7/2.png?v=1673045939960"
+  class="GIF" />
+  <p class="entranceZ1">
+  Le style de votre maison ou de votre bâtiment peut avoir un impact important sur son apparence, son ambiance et sa valeur, voici quelques étapes pour le déterminer
+  </p>
+                       <a
+        class="btnsub000P3raycac"
+        href="/blog-0002" 
+      >        En savoir plus
+      </a>  
+  </div>
+  </div>
+         
+         
+               <div class="combat000P1 card">
+  <div class="combat1">
+        <img
+  src="https://cdn.glitch.global/75ffb288-9d41-4924-bc6f-b702c013bbe7/3.png?v=1673045951555"
+  class="GIF" />
+  <p class="entranceZ1">
+  Dans cet article, découvrez pourquoi il est essentiel et recommandé de consulter un profesionnel en architecture pour vérifier la faisabilité technique de votre projet
+  </p>
+                       <a
+        class="btnsub000P3raycac"
+        href="/blog-0003" 
+      >        En savoir plus
+      </a>  
+
+  </div>
+  </div>
+         
+         
+    
+      <div class="combat000P1 card">
+  <div class="combat1">
+        <img
+  src="https://cdn.glitch.global/75ffb288-9d41-4924-bc6f-b702c013bbe7/4.png?v=1673045972532"
+  class="GIF" />
+  <p class="entranceZ1">
+  Nous verrons dans cet article en quoi consiste la modélisation 3D et la conception de plan 2D et quels sont les intérêts de ce travail prépatoire qui est essentiel et pertinent
+  </p>
+                       <a
+        class="btnsub000P3raycac"
+        href="/blog-0004" 
+      >        En savoir plus
+      </a>  
+  </div>
+  </div>
+    
+  </div>
+    </purpleblocksS>
+  
+    
+<div class="container2">
+ <purpleblocks>
+   
+                                   <p class="entranceZ1sub">
+Project est une entreprise du secteur du BTP qui est basée dans l’Oise qui travaille avec les professionnels et les entreprises pour les aider à réaliser leurs projets de construction. Nous proposons des tarifs adaptés à chaque type de prestation et de demande. Nos services comprennent notamment le chiffrage tous corps d'état, la conception de plan 2D, la modélisation 3D, le suivi de chantier, la gestion des dossiers administratifs, des conseils en aménagement et en faisabilité technique, l'aménagement intérieur, l'assistance pour les appels d'offres publics et privés. N'hésitez pas à nous contacter pour obtenir un devis pour votre projet en étude de projet de bâtiment. Stéphanie Monteiro, spécialiste et experte, sera heureuse de travailler sur votre projet et de vous accompagner.
+   </p>
+   
+                                      <p class="entranceZ1sublinked" > <a href="/contact" class="entranceZ1sublinked"> 
+                                                                    Déposez votre projet en ligne     </a>  </p>
+   
+  </purpleblocks>
+</div>
+  
+  
+  
+  
+  
+  
+  
+
+
+      
+
+<footer class="footer">
+  <div class="footer__addr">
+          <img class="nav__logoF" src="https://cdn.glitch.global/75ffb288-9d41-4924-bc6f-b702c013bbe7/LOGO.png?v=1673038255828" alt="" />
+    <address>
+      &copy; Tous droits réservés<br>   
+      SASU PROJECT SIREN 913276705<br>   
+      Saint-Martin-Longueau, 60700 Hauts-de-France
+    </address>
+  </div>
+  
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">Mentions</h2>
+
+      <ul class="nav__ul">
+        <li>
+          <a href="/cgv">CGV</a>
+        </li>
+        
+                <li>
+          <a href="/cgu">CGU</a>
+        </li>
+
+        <li>
+          <a href="/confidentialite">Confidentialité</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li class="nav__item nav__item--extra">
+      <h2 class="nav__title">Prestations</h2>
+      
+      <ul class="nav__ul nav__ul--extra">
+        <li>
+          <a href="/chiffrage-tce">Chiffrage TCE</a>
+        </li>
+        
+        <li>
+          <a href="/plan-2d">Plan 2D</a>
+        </li>
+        
+        <li>
+          <a href="/modelisation-3d">Modélisation 3D</a>
+        </li>
+        
+               <li>
+          <a href="/suivis-de-chantier">Suivis de chantier</a>
+        </li>
+        
+               <li>
+          <a href="/dossiers-administratifs">Dossiers administratifs</a>
+        </li>
+        
+        <li>
+          <a href="/amenagement-interieur">Aménagement intérieur</a>
+        </li>
+        
+        <li>
+          <a href="/faisabilite-technique">Faisabilité technique</a>
+        </li>
+        
+        <li>
+          <a href="/appels-offres">Appels d'offres</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li class="nav__item">
+      <h2 class="nav__title">Interagir</h2>
+      
+      <ul class="nav__ul">
+        <li>
+          <a href="https://www.instagram.com/project_btp/">S'abonner sur Instagram</a>
+        </li>
+        
+        <li>
+          <a href="mailto:project.monteiro@gmail.com">Écrivez-nous</a>
+        </li>
+        
+        <li>
+          <a href="tel:0621553937">Appelez-nous</a>
+        </li>
+        
+                <li>
+          <a href="/contact">Formulaire de contact</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  
+  <div class="legal">
+    <a href="https://about.saoecom.com/"><span>Développé avec <span class="heart">♥</span> par SAOECOM</span></a>
+    
+    <div class="legal__links">
+    </div>
+  </div>
+</footer>
   </body>
+
+
+  <script>
+if (location.protocol != 'https:')
+{
+ location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+}
+</script>
+
+
+
 </html>
