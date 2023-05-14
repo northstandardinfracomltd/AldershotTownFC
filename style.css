@@ -2313,13 +2313,14 @@ border-radius: 14px 14px 0px 0px !important;
 
 
 img.GIFSS {
-  width: 700px !important;
+  width: 450px !important;
+  max-width: 100%;
   padding-top: 20px;
   padding-bottom: -2px !important;
     padding-left: 0px !important;
     padding-right: 0px !important;
 border-radius: 0px 0px 15px 15px !important;
-  opacity: 0.8 !important;
+  opacity: 1 !important;
   text-align: center !important;
 margin-left: auto;
   margin-right: auto;
