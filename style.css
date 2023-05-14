@@ -3752,8 +3752,9 @@ width: 100px !important;
     width: 82px !important;
     max-width: 340px !important;
   object-fit: contain;
-  margin-top: 2px !important;
-    margin-left: -5px !important;
+  margin-top: 4px !important;
+    margin-left: 5px !important;
+    margin-bottom: 0px !important;
   }
 }
 
@@ -5169,8 +5170,9 @@ h1.tag {
   width: 100%; 
   display: grid;
   grid-gap: 1em;
-  background: linear-gradient(rgb(125 125 141 / 35%), rgb(125 125 141 / 35%)), url('https://cdn.glitch.global/e09a74a3-f20e-4ac4-ae93-ad0b31b336a1/thumbnail-default-min.jpg?v=1684068918788');
+  background: linear-gradient(rgb(255 255 255 / 45%), rgb(0 0 0 / 45%)), url(https://cdn.glitch.global/e09a74a3-f20e-4ac4-ae93-ad0b31b336a1/thumbnail-default-min.jpg?v=1684068918788);
   background-size: cover;
+  opacity: 1;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
@@ -5466,6 +5468,31 @@ a:hover {
 }
 
 
+@media (max-width: 600px){
+.dd-button {
+    display: inline-block;
+    white-space: nowrap;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+    font-size: 1.1rem;
+    font-weight: var(--base-text-weight-medium, 500);
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    border-radius: 10px !important;
+    font-family: "Saoecom2font" !important;
+    text-align: center !important;
+    border-style: dashed;
+    background-color: hsl(207.92deg 72.6% 42.94% / 66%);
+    color: hsl(0deg 0% 100%) !important;
+    border: 1px solid hsl(207.92deg 99.34% 66.35%);
+    margin-right: 5px !important;
+}
+}
+
+@media (max-width: 600px){
 .dd-button:hover {
     display: inline-block;
     white-space: nowrap;
@@ -5485,8 +5512,35 @@ a:hover {
     background-color: hsl(207.92deg 72.6% 42.94% / 66%);
     color: hsl(0deg 0% 100%) !important;
     border: 1px solid hsl(207.92deg 99.34% 66.35%);
-    margin-right: 10px !important;
+    margin-right: 5px !important;
 }
+}
+
+
+@media (max-width: 600px){
+.dd-button:focus {
+    display: inline-block;
+    white-space: nowrap;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+    font-size: 1.1rem;
+    font-weight: var(--base-text-weight-medium, 500);
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    border-radius: 10px !important;
+    font-family: "Saoecom2font" !important;
+    text-align: center !important;
+    border-style: dashed;
+    background-color: hsl(207.92deg 72.6% 42.94% / 66%);
+    color: hsl(0deg 0% 100%) !important;
+    border: 1px solid hsl(207.92deg 99.34% 66.35%);
+    margin-right: 5px !important;
+}
+}
+
 
 
 
