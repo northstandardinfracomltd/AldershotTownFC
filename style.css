@@ -2313,18 +2313,19 @@ border-radius: 14px 14px 0px 0px !important;
 
 
 img.GIFSS {
-  width: 450px !important;
-  max-width: 100%;
-  padding-top: 20px;
-  padding-bottom: -2px !important;
+    width: 700px !important;
+    max-width: 100%;
+    padding-top: 20px;
+    padding-bottom: -2px !important;
     padding-left: 0px !important;
     padding-right: 0px !important;
-border-radius: 0px 0px 15px 15px !important;
-  opacity: 1 !important;
-  text-align: center !important;
-margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 66px;
+    border-radius: 0px 0px 15px 15px !important;
+    opacity: 1 !important;
+    text-align: center !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -30px;
+    margin-top: 90px;
 }
 
 @media screen and (max-width: 980px) {
@@ -3804,7 +3805,6 @@ width: 100px !important;
   transition-timing-function: ease-in;
   transition: all 0.5s;
 background: linear-gradient(0.25turn, #1D70B8, #259bff);
-  border-bottom: 1px solid #242429 !important;
     display: flex;
   align-items: center;
 }
@@ -5167,10 +5167,9 @@ h1.tag {
   margin: 30px auto;
   padding: 0 10px;
   width: 100%; 
-  height: 700px;
   display: grid;
   grid-gap: 1em;
-  background: linear-gradient(rgb(24 24 27 / 86%), rgb(24 24 27 / 57%)), url('https://cdn.glitch.global/e09a74a3-f20e-4ac4-ae93-ad0b31b336a1/IMG_0567-1%20(1).jpg?v=1684069056544');
+  background: linear-gradient(rgb(125 125 141 / 35%), rgb(125 125 141 / 35%)), url('https://cdn.glitch.global/e09a74a3-f20e-4ac4-ae93-ad0b31b336a1/thumbnail-default-min.jpg?v=1684068918788');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
