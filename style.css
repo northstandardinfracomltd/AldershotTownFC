@@ -5429,7 +5429,7 @@ a {
 
 
 a:hover {
-  color: #bb9716;
+  color: #eeeef1;
   font-family: "Saoecom2fontlight" !important;
   font-size: 1.2rem;
 }
@@ -5444,12 +5444,12 @@ a:hover {
 }
 
 .dd-button {
-  display: inline-block;
-  white-space: nowrap;
-    padding-top: 12px !important;
-    padding-bottom: 12px !important;
-    padding-right: 20px !important;
-    padding-left: 22px !important;
+    display: inline-block;
+    white-space: nowrap;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
     font-size: 1.1rem;
     font-weight: var(--base-text-weight-medium, 500);
     vertical-align: middle;
@@ -5459,20 +5459,20 @@ a:hover {
     font-family: "Saoecom2font" !important;
     text-align: center !important;
     border-style: dashed;
-    background-color: hsl(240deg 3% 17%);
-    color: hsl(240deg 7% 94%) !important;
-    border: 1px solid hsl(240deg 3% 17%);
-  margin-right: -0px !important;
+    background-color: hsl(207.92deg 72.6% 42.94% / 66%);
+    color: hsl(0deg 0% 100%) !important;
+    border: 1px solid hsl(207.92deg 99.34% 66.35%);
+    margin-right: 10px !important;
 }
 
 
 .dd-button:hover {
-  display: inline-block;
-  white-space: nowrap;
-    padding-top: 12px !important;
-    padding-bottom: 12px !important;
-    padding-right: 20px !important;
-    padding-left: 22px !important;
+    display: inline-block;
+    white-space: nowrap;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
     font-size: 1.1rem;
     font-weight: var(--base-text-weight-medium, 500);
     vertical-align: middle;
@@ -5482,10 +5482,10 @@ a:hover {
     font-family: "Saoecom2font" !important;
     text-align: center !important;
     border-style: dashed;
-    background-color: hsl(240deg 3% 17%);
-    color: hsl(240deg 7% 94%) !important;
-    border: 1px solid hsl(240deg 3% 17%);
-  margin-right: -0px !important;
+    background-color: hsl(207.92deg 72.6% 42.94% / 66%);
+    color: hsl(0deg 0% 100%) !important;
+    border: 1px solid hsl(207.92deg 99.34% 66.35%);
+    margin-right: 10px !important;
 }
 
 
@@ -5497,12 +5497,12 @@ a:hover {
 .dd-menu {
     position: absolute;
     top: 100%;
-    border: 1px solid #242429;
+    border: 1px solid #2f88d4;
     border-radius: 10px;
     padding: 0 !important;
     padding-top: 10px !important;
-    margin: 5px 10px 10px -91px !important;
-    background-color: #18181b;
+    margin: 5px 10px 10px -34px !important;
+    background-color: #1c70b8;
     list-style-type: none;
 }
 
@@ -5525,7 +5525,7 @@ a:hover {
 }
 
 .dd-menu li:hover {
-  background-color: #18181b;
+  background-color: #1c70b8;
     border-radius: 10px;
     color: #efeff1 !important;
 }
@@ -5538,7 +5538,7 @@ a:hover {
 
 .dd-menu li.divider{
   padding: 0;
-  border-bottom: 1px solid #242429;
+  border-bottom: 1px solid #2f88d4;
   padding-bottom: 3px !important;
 }
 
@@ -5592,7 +5592,7 @@ a:hover {
   flex: 25% !important;
   max-width: 25% !important;
   box-sizing: border-box !important;
-  padding: 20px !important;
+  padding: 30px !important;
     margin-top : auto !important;
   margin-bottom: auto !important;
 }
